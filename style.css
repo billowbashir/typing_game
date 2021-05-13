@@ -7,3 +7,8 @@
     background-color: lightcoral;
     border: red;
   }
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
