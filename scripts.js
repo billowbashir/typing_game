@@ -20,7 +20,10 @@ const messageElement = document.getElementById('message');
 const typedValueElement = document.getElementById('typed-value');
 
 
-document.getElementById("start")addEventListener("click",()=>{
+document.getElementById('start')addEventListener('click',()=>{
     const quoteIndex=Math.floor(Math.random()*quotes.length);
     const quote=quotes[quoteIndex];
+
+    words=quote.split(' ');
+    
 })
