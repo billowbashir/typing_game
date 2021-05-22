@@ -40,4 +40,6 @@ document.getElementById('start').addEventListener('click',()=>{
 
     typedValueElement.focus();
 
+    startTime = new Date().getTime();
+
 })
