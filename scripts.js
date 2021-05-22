@@ -34,4 +34,6 @@ document.getElementById('start').addEventListener('click',()=>{
 
     quoteElement.childNodes[0].className = 'highlight';
 
+    messageElement.innerText = '';
+
 })
