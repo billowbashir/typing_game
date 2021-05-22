@@ -38,4 +38,6 @@ document.getElementById('start').addEventListener('click',()=>{
 
     typedValueElement.value = '';
 
+    typedValueElement.focus();
+
 })
