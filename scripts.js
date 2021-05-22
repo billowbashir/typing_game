@@ -36,4 +36,6 @@ document.getElementById('start').addEventListener('click',()=>{
 
     messageElement.innerText = '';
 
+    typedValueElement.value = '';
+
 })
