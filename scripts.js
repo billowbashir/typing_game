@@ -30,4 +30,6 @@ document.getElementById('start').addEventListener('click',()=>{
 
     const spanWords=words.map(function(word){return "<span>${word}</span>"});
 
+    quoteElement.innerHTML = spanWords.join('');
+
 })
