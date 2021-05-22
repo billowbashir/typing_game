@@ -32,4 +32,6 @@ document.getElementById('start').addEventListener('click',()=>{
 
     quoteElement.innerHTML = spanWords.join('');
 
+    quoteElement.childNodes[0].className = 'highlight';
+
 })
