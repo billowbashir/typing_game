@@ -42,4 +42,4 @@ document.getElementById('start').addEventListener('click',()=>{
 
     startTime = new Date().getTime();
 
-})
+});
